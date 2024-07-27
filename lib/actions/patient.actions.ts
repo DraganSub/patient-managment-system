@@ -71,6 +71,8 @@ export const registerPatient = async ({ identificationDocument, ...patient }: Re
         ...patient
       }
     )
+
+    return parseStringify(newPatient)
   } catch (error) {
     console.log(error);
   }

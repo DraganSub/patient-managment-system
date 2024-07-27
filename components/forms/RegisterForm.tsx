@@ -36,7 +36,7 @@ const RegisterForm = ({ user }: { user: User }) => {
   });
 
   async function onSubmit(values: z.infer<typeof PatientFormValidation>) {
-    setIsLoading(true);
+    // setIsLoading(true);
 
 
     let formData;
@@ -61,10 +61,10 @@ const RegisterForm = ({ user }: { user: User }) => {
       // @ts-ignore
       const patient = await registerPatient(patientData);
 
-      // @ts-ignore
       if (patient) router.push(`/patients/${user.$id}/new-appointment`);
     } catch (error) {
       console.log(error);
+
     }
 
   }
