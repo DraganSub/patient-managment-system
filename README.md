@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏥 Patient Management System
 
-## Getting Started
+The Patient Management System is a comprehensive application built with Next.js and TypeScript. It allows for efficient scheduling and management of patient appointments. The system integrates with Twilio to send SMS notifications when appointments are scheduled, and uses Shadcn and Tailwind CSS to create complex forms and a modern user interface. Appwrite serves as the backend database, providing real-time data management. An admin page is included for real-time appointment approval, modification, or cancellation.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Explore the live application [here](https://patient-managment-system-n5lzh9khp-dragansubs-projects.vercel.app/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![image](https://github.com/user-attachments/assets/68382985-dea4-416e-b6fd-ce4ec5d83fde)
+![image](https://github.com/user-attachments/assets/4d0b52e0-f866-4813-a78c-855aee74579e)
+![image](https://github.com/user-attachments/assets/8492d11c-6bff-41e7-8630-601ebb097ac5)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Appointment Scheduling:** Allows patients to book, view, and manage appointments.
+- **SMS Notifications:** Uses Twilio to send SMS messages to patients when appointments are scheduled.
+- **Complex Forms:** Implemented with Shadcn for complex form handling and Tailwind CSS for styling.
+- **Admin Interface:** Provides real-time capabilities for admins to approve, change, or decline appointments.
+- **Real-time Database:** Appwrite is used for storing and managing appointment data with real-time updates.
+- **Responsive Design:** Built with Tailwind CSS to ensure a modern and responsive user experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Frontend:**
+  - [Next.js](https://nextjs.org/) with [TypeScript](https://www.typescriptlang.org/) - Server-side rendering framework with strong typing
+  - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+  - [Shadcn](https://shadcn.dev/) - For building complex forms
+- **Backend & Database:**
+  - [Appwrite](https://appwrite.io/) - Backend server for database management
+- **SMS Service:**
+  - [Twilio](https://www.twilio.com/) - For sending SMS notifications
